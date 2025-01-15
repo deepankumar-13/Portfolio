@@ -151,6 +151,24 @@ body {
     padding-bottom: 10px;
 }
 
+span {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(40) infinite normal both;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+
+
 .social_media {
     display: flex;
     position: absolute;
@@ -197,7 +215,7 @@ body {
     display: flex;
     padding-top: 40px;
     padding-right: 80px;
-    animation: float 3s ease-in-out infinite;
+    animation: float 2s ease-in-out infinite;
 
 }
 
